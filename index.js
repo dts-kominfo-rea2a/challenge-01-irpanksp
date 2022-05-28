@@ -6,7 +6,7 @@ const firstUser = {
     gender : "Female",
     age : 17,
     email : "monica@dingdong.com",
-    favoriteColor : [new Set(["Yellow","Pink","White","Purple"])],
+    favoriteColor : [...new Set(["Yellow","Pink","White","Purple"])],
     isHavePet : true,
     education : [
         {
